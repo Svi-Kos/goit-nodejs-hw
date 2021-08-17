@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Svi-Kos/goit-nodejs-hw/issues"
   },
-  "homepage": "https://github.com/Svi-Kos/goit-nodejs-hw#readme"
+  "homepage": "https://github.com/Svi-Kos/goit-nodejs-hw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.1.0"
+  }
 }
